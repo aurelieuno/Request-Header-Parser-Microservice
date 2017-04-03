@@ -33,6 +33,7 @@ app.set('view engine', 'pug')
       	//"baseURL" : req.baseURL,
       	//"hostname" : req.hostname,
       	"ipaddress" : req.ip,
+        //"ipaddress2" : req.useragent.ipaddress,
       	//"originalURL" : req.originalURL,
       	//"path" : req.path,
       	//"route" : req.route,
